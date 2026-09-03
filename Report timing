@@ -1,0 +1,24 @@
+Path 1: MET (363 ps) Late External Delay Assertion at pin count[0]
+
+Group: clk
+
+Startpoint: (R) count_reg[0]/CK
+Clock:      (R) clk
+
+Endpoint:   (R) count[0]
+Clock:      (R) clk
+
+                    Capture       Launch
+Clock Edge:          2000           0
+Src Latency:            0           0
+Net Latency:            0 (I)       0 (I)
+Arrival:             2000           0
+
+Output Delay:         800
+Required Time:       1200
+Launch Clock:           0
+Data Path:            837
+Slack:                363
+
+Exceptions/Constraints:
+output_delay          800    counter_input_const line 9_3_1
