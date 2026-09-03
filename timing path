@@ -1,0 +1,10 @@
+Timing Point       Flags   Arc      Edge   Cell      Fanout
+------------------------------------------------------------
+count_reg[0]/CK             -       R              4
+count_reg[0]/Q              CK->Q   R    DFFRX2     3
+count[0]             <<<
+
+Load: 100 fF
+Transition: 153.2 ps
+Delay: 650 ps
+Arrival: 837 ps
